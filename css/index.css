@@ -1,0 +1,28 @@
+@charset "utf-8";
+@import url(commons/menu.css);
+@import url(commons/topGo.css);
+@import url(section/section01.css);
+@import url(section/section02.css);
+@import url(section/section03.css);
+@import url(section/section04.css);
+@import url(section/section05.css);
+@import url(section/section06.css);
+@import url(section/footer.css);
+@import url(commons/media.css);
+
+#wrap{
+    width: 100%;
+    height: 100%;
+}
+
+.inner-wrap{
+    width: 100%;
+    height: 700%;
+}
+
+.inner-wrap .section{
+    width: 100%;
+    height: 14.2857%;
+    font-style: italic;
+}
+

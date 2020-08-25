@@ -1,0 +1,209 @@
+@charset "utf-8";
+
+/*section3 부분!!!!!!*/
+.section.sec3 {
+    background: #fff;
+}
+
+.section.sec3 .inner-sec3{
+    width:100%;
+    height:100%;
+    /* border:5px solid #f00;
+    box-sizing: border-box; */
+    position: relative;
+}
+
+.section.sec3 .inner-sec3::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.section.sec3 .inner-sec3 .sec3-arrow{
+    position: absolute;
+    width:30px;
+    height: 18px;
+    bottom: 50px;
+    left: 50%;
+    margin-left: -15px;
+    display: none;
+    z-index: 10;
+}
+
+.section.sec3 .inner-sec3 .sec3-arrow >img{
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}
+
+.section.sec3 .inner-sec3 .sec3-arrow >img:hover{
+    transition: ease-in-out 1.0s;
+    transform: scale(1.1);
+}
+
+.section.sec3 .inner-sec3 .sec3-port{
+    width: 60%;
+    height: auto;
+    position: absolute;
+    left: -100%;
+    z-index: 1;
+}
+
+.section.sec3 .inner-sec3 .sec3-port .hyundaiImg{
+    width: 100%;
+    padding: 150px 0 0 0;
+    box-sizing: border-box;
+    border: 0px solid #00f;
+}
+
+.section.sec3 .inner-sec3 .sec3-port .hyundaiImg img{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+.section.sec3 .inner-sec3 .sec3-Txt{
+    width: 40%;
+    height: auto;
+    padding: 12% 0 0 0;
+    box-sizing: border-box;
+    font-style: normal;
+    color: #333;
+    position: absolute;
+    right: 0;
+    border: 0px solid #f00;
+}
+
+.section.sec3 .inner-sec3 .sec3-Txt .logoTxt{
+    width: 65%;
+    height: auto;
+    border: 0px solid #00f;
+}
+
+.section.sec3 .inner-sec3 .sec3-Txt .logoTxt h1.hyundaiLogo{
+    width: 100%;
+}
+
+.section.sec3 .inner-sec3 .sec3-Txt .logoTxt h1.hyundaiLogo img{
+    width: 100%;
+    display: block;
+    opacity: 0;
+}
+
+.section.sec3 .inner-sec3 .sec3-Txt .logoTxt .hyundaiColor{
+    float: right;
+    width: auto;
+    margin: 15px 0;
+    height: auto;
+    border: 0px solid #000;
+}
+
+.section.sec3 .inner-sec3 .sec3-Txt .logoTxt .hyundaiColor::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.section.sec3 .inner-sec3 .sec3-Txt .logoTxt .hyundaiColor >ul >li{
+    display: none;
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin: 0 10px;
+}
+
+.section.sec3 .inner-sec3 .sec3-Txt .logoTxt .hyundaiColor >ul >li:nth-child(1)::after{
+    content:"";
+    background: #008837;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    
+}
+.section.sec3 .inner-sec3 .sec3-Txt .logoTxt .hyundaiColor >ul >li:nth-child(2)::after{
+    content: "";
+    background: #FFB300;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.section.sec3 .inner-sec3 .sec3-Txt .logoTxt .hyundaiColor >ul >li:nth-child(3)::after{
+    content: "";
+    background: #1d4483;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.section.sec3 .inner-sec3 .sec3-Txt .logoTxt .hyundaiColor >ul >li::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.section.sec3 .inner-sec3 .sec3-Txt .hyundai-about{
+    /* border: 1px solid #ff0; */
+    width: 100%;
+    height: auto;
+    margin: 50px 0 0 0;
+}
+
+.section.sec3 .inner-sec3 .sec3-Txt .hyundai-about >h3{
+    font-size: 28px;
+    font-weight: 500;
+    display: none;
+}
+
+.section.sec3 .inner-sec3 .sec3-Txt .hyundai-about >h6{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    display: none;
+    margin: 0 0 20px 0;
+}
+
+.section.sec3 .inner-sec3 .sec3-Txt .hyundai-about >span{
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'NanumSquare', sans-serif;
+    display: none;
+}
+
+.section.sec3 .inner-sec3 .sec3-Txt .hyundai-about >p{
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'NanumSquare', sans-serif;
+    display: none;
+    margin: 20px 0 0 0;
+}
+
+.section.sec3 .inner-sec3 .sec3-Txt .hyundai-about >input[type=button]{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background: #000;
+    margin: 25px 0 0 0;
+    color: #fff !important;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+    display: none;
+    outline: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.section.sec3 .inner-sec3 .sec3-Txt .hyundai-about >input[type=button]:hover{
+    background: #008837;
+    transition: all .5s;
+}
+
+.section.sec3 .inner-sec3 .sec3-Txt .hyundai-about input.h-sub{
+    margin: 10px 0 0 0;
+    background: rgb(197, 197, 197);
+}
+
+.section.sec3 .inner-sec3 .sec3-Txt .hyundai-about input.h-sub:hover{
+    background: #FFB300;
+    transition: all .5s;
+}
